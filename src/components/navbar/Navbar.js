@@ -4,17 +4,17 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div>
       <header>
         <img src={logo} alt="logo" />
         <nav>
-          <a href="#">
+          <a href="www.google.com">
             <h6>Login</h6>
           </a>
-          <a href="about.html">
+          <a href="www.google.com">
             <h6>Signup</h6>
           </a>
-          <a href="#">
+          <a href="www.google.com">
             <h6>Menu</h6>
           </a>
         </nav>

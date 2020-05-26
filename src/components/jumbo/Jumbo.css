@@ -1,0 +1,23 @@
+.jumbo {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    height: 60px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.jumbo nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+
+.jumbo nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
