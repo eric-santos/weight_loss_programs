@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/IFIT.png";
+import logo from "../../images/IFIT.png";
 import "./Navbar.css";
 
 const Navbar = () => {
