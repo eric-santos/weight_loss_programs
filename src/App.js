@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar.js";
 import Jumbo from "./components/jumbo/Jumbo.js";
 import MiddleContent from "./components/middleContent/MiddleContent.js";
+import Footer from "./components/footer/Footer.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Jumbo />
       <MiddleContent />
+      <Footer />
     </div>
   );
 }

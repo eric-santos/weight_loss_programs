@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 20px 50px;
+    background-color: rgb(41, 39, 38);
+    color: whitesmoke
+}
+
+.quote h6 {
+    padding: 20px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5%;
+    padding: 10px;
+}
+
+.get-started button {
+    margin-left: 10px
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(41, 39, 38);
+}
+
+.contact a {
+    margin: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact h6 {
+    font-size: .50rem;
+}
