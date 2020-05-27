@@ -18,7 +18,7 @@ const Jumbo = () => {
         src={yoga}
         alt="three women in a yoga session"
         className="yoga-image"
-      />
+      ></img>
     </>
   );
 };

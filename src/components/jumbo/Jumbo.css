@@ -3,12 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 20px;
     height: 60px;
     background-color: rgb(255, 255, 255, 0.5);
+    width: 100%;
 }
 
-.jumbo nav {
+.secondary-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -23,6 +23,32 @@
 }
 
 .yoga-image {
+    z-index: -999;
     height: 800px;
     width: 100%;
+}
+
+@media (max-width: 800px) {
+    .jumbo {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        height: 150px;
+    }
+    .jumbo nav {
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondary-nav {
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+    .yoga-image {
+        width: 500px;
+        height: auto;
+    }
 }

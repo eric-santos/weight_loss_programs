@@ -14,7 +14,7 @@ const Footer = () => {
         <h6>Graham Lambourne</h6>
       </div>
       <div className="get-started">
-        <h1>Get started on your weight loss journey.</h1>
+        <pre>Get started on your weight loss journey.</pre>
         <button>JOIN IFIT TODAY</button>
       </div>
       <div className="contact">

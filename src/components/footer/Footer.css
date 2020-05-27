@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+    margin: 10px;
 }
 
 .quote {
@@ -28,7 +29,15 @@
 }
 
 .get-started button {
-    margin-left: 10px
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #074776;
+    color: whitesmoke;
 }
 
 .contact {
@@ -46,4 +55,24 @@
 
 .contact h6 {
     font-size: .50rem;
+}
+
+@media (max-width: 800px) {
+    .middle-content .boxes .box {
+        width: 50%;
+        height: auto;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-started button {
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        margin: 10px 0;
+        background-color: #074776;
+        color: whitesmoke;
+    }
 }
