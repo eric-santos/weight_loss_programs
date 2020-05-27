@@ -56,6 +56,7 @@
 .contact h6 {
   font-size: 0.5rem;
 }
+
 .copyright {
   display: flex;
   justify-content: flex-end;
@@ -63,12 +64,24 @@
   color: whitesmoke;
   margin: auto 10px;
 }
+
 .icons {
   margin: auto 15px;
   color: white;
 }
+
 .icon {
   margin: auto 5px;
+}
+
+.carousel {
+  color: whitesmoke;
+  background-color: rgb(41, 39, 38);
+}
+
+.carousel p,
+h6 {
+  background-color: rgb(41, 39, 38);
 }
 
 @media (max-width: 800px) {
